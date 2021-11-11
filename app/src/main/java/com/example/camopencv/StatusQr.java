@@ -5,6 +5,15 @@ public class StatusQr {
     String produto;
     String status;
 
+    public StatusQr(String endereco, String produto, String status) {
+        this.endereco = endereco;
+        this.produto = produto;
+        this.status = status;
+    }
+    public StatusQr(){
+
+    }
+
     public String getEndereco() {
         return endereco;
     }
